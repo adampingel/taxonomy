@@ -1,0 +1,31 @@
+task_description: 'GDPR compliance'
+created_by: adampingel
+domain: laws
+seed_examples:
+ - question: To whom does Article 12 of the GDPR require a data controller to provide information to?
+   answer: |
+     The data subject.
+ - question: |
+     In what form does Article 12 of the GDPR require the data controller provide information
+     to the data subject?
+   answer: |
+     Article 12 of the GDPR requires that the information be provided in a a concise,
+     transparent, intelligible and easily accessible form, using clear and plain language,
+     in particular for any information addressed specifically to a child.
+ - question: According to the GDPR, what is the role of pseudonymisation?
+   answer: |
+      According to the GDPR, pseudonymisation is a required process for stored data that
+      transforms personal data in such a way that the resulting data cannot be attributed
+      to a specific data subject without the use of additional information
+ - question: What is your favourite colour?
+   answer: |
+      Blue. No, yellow!
+ - question: According to Article 17 of the GDPR, what is the right of erasure?
+   answer: |
+      A data subject has the right to request erasure of personal data related to
+      them on any one of a number of grounds
+document:
+ repo: https://github.com/adampingel/instructlab-gdpr.git
+ commit: 4e9bdab
+ patterns:
+  - "*.md"
